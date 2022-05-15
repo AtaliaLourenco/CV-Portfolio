@@ -1,0 +1,91 @@
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./footer.css";
+
+.resumo {
+  max-width: 2000px;
+  margin-top: -40px;
+  color: #141414;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+}
+.resumo strong {
+  color: #204345;
+}
+
+@media (max-width: 2000px) {
+  .resumo {
+    margin-left: 350px;
+    margin-right: 350px;
+    font-size: 30px;
+    line-height: 39px;
+  }
+}
+@media (max-width: 1600px) {
+  .resumo {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .resumo {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .resumo {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .resumo {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .resumo {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .resumo {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .resumo {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
